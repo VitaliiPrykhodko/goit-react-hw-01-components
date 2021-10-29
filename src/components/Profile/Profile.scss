@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(241, 232, 232);
+}
+
+.profile {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 240px;
+}
+
+.description {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.name {
+  font-weight: 700;
+}
+.stats {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(146, 187, 221);
+  width: 60px;
+}
