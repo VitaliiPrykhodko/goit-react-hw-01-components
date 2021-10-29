@@ -1,9 +1,11 @@
 import { Profile } from "./components/Profile/Profile.js";
 import { Statistics } from "./components/Statistics/Statistics.js";
-import {FriendList} from "./components/FriendList/FriendList.js"
+import { FriendList } from "./components/FriendList/FriendList.js"
+import { TransactionHistory } from "./components/TransactionHistory/TransactionHistory.js";
 import user from "./components/user.json";
 import statisticalData from "./components/statistical-data.json";
 import friends from "./components/friends.json"
+import transactions from "./components/transactions.json"
 
 function App() {
   return (
@@ -22,7 +24,11 @@ function App() {
               <FriendList
           friends={friends}
       />
-
+      </div>
+      <div className="transition">
+        <TransactionHistory
+        items = {transactions}
+      />
       </div>
     </div>
   );
